@@ -3,7 +3,7 @@
 
 // Structure type to hold metadata about the string and 
 // a pointer to the string to be dynamically allocated.
-// Move this struct do string_lib.c if making this data structure abstract.
+// Move this struct do str_lib.c if making this data structure abstract.
 // (note unit testing in main then would require this declaration as well 
 // since struct members are accessed in the unit tests in main.c.)
 struct string_t{
